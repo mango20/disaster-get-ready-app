@@ -1,0 +1,54 @@
+.loginCont {
+  height: 100vh;
+  background-image: url("/public/Login.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.loginInpCont {
+  width: 400px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.89);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  padding: 1em 2em;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.loginSubmit {
+  width: 100%;
+}
+
+.loginInp {
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.loginInp:focus {
+  box-shadow: none;
+  background: none;
+}
+
+.loginSubmit {
+  background-color: rgba(0, 0, 175, 0.699);
+}
+
+.loginSubmit:hover {
+  background-color: rgba(0, 0, 126, 0.699);
+}
+
+.loginSubmit:focus {
+  background-color: rgba(0, 0, 175, 0.699);
+  box-shadow: none;
+}
